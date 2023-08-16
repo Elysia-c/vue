@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* 默认情况下，盒子显示的宽度=内容的宽度width+padding+border 
+    使用box-sizing: border-box;后
+    盒子显示的宽度=width设置值=内容的宽度（减少）+padding+border */
+    box-sizing: border-box;
+}
